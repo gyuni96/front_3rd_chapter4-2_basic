@@ -1,0 +1,24 @@
+{
+  "name": "front_3rd_chapter4-2_basic",
+  "version": "1.0.0",
+  "description": "- url:",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gyuni96/front_3rd_chapter4-2_basic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gyuni96/front_3rd_chapter4-2_basic/issues"
+  },
+  "homepage": "https://github.com/gyuni96/front_3rd_chapter4-2_basic#readme",
+  "devDependencies": {
+    "vite": "^5.4.11"
+  }
+}
