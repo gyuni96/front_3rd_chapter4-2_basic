@@ -18,7 +18,7 @@
     |![alt text](./doc/이미지_변환전.png) | ![alt text](./doc/이미지_변환후.png)|
     - 결과 : LCP 측정값 14.63s -> 6.45s 감소
   - 이미지 사이즈 , lazy 추가
-    ![alt text](./doc/이미지사이즈조절.png)
+    - ![alt text](./doc/이미지사이즈조절.png)
     - 결과 : LCP 측정값 6.45s -> 5.86s 감소
 
 - 폰트
