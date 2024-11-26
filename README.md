@@ -32,7 +32,25 @@
 
 ### 개선후
 
-![alt text](./doc/게산후성능진단.png)
+![alt text](./doc/개선후성능진단.png)
+
+- Lighthouse Scores Comparison
+
+| Category       | Score Before | Status Before | Score After | Status After |
+| -------------- | ------------ | ------------- | ----------- | ------------ |
+| Performance    | 72           | 🟠            | 100         | 🟢           |
+| Accessibility  | 82           | 🟠            | 89          | 🟠           |
+| Best Practices | 75           | 🟠            | 75          | 🟠           |
+| SEO            | 82           | 🟠            | 82          | 🟠           |
+| PWA            | 0            | 🔴            | 0           | 🔴           |
+
+Core Web Vitals Comparison
+
+| Metric | Value Before | Status Before | Value After | Status After |
+| ------ | ------------ | ------------- | ----------- | ------------ |
+| LCP    | 14.63s       | 🟠            | 1.80s       | 🟢           |
+| INP    | N/A          | 🟢            | N/A         | 🟢           |
+| CLS    | 0.011        | 🟢            | N/A         | 🟢           |
 
 - 개선 요약
   - Images, Fonts, JavaScript의 최적화로 인해 성능 및 접근성 개선
