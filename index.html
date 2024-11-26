@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home - Tech Shop</title>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,600,700&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="/css/styles.css" />
     <!-- <link rel="stylesheet" type="text/css" href="/css/slick.css"/> -->
     <!-- Google Tag Manager -->
@@ -23,8 +24,13 @@
     <!-- End Google Tag Manager -->
 
     <!-- Cookie Consent by FreePrivacyPolicy.com https://www.FreePrivacyPolicy.com -->
-    <script type="text/javascript" src="/js/cookie-consent.js" charset="UTF-8" defer></script>
-    <script charset="UTF-8" defer>
+    <script
+      defer
+      type="text/javascript"
+      src="//www.freeprivacypolicy.com/public/cookie-consent/4.1.0/cookie-consent.js"
+      charset="UTF-8"
+    ></script>
+    <script defer type="text/javascript" charset="UTF-8">
       document.addEventListener("DOMContentLoaded", function () {
         cookieconsent.run({
           notice_banner_type: "simple",
@@ -68,42 +74,34 @@
             <li><a href="about.html">About us</a></li>
             <li><a href="index.html#best-sellers-section">Best Sellers</a></li>
             <li><a href="index.html#newsletter-section">Newsletter</a></li>
-            <li class="menu-icon">
-              <img src="images/menu_icon.webp" width="29" height="20" />
-            </li>
+            <li class="menu-icon"><img src="images/menu_icon.webp" /></li>
           </ul>
         </nav>
       </div>
     </header>
 
     <section class="hero">
-      <img
-        class="desktop"
-        src="images/Hero_Desktop.webp"
-        alt="Desktop Image"
-        width="1020"
-        height="450"
-      />
-      <img
-        class="tablet"
-        src="images/Hero_Tablet.webp"
-        alt="Tablet Image"
-        width="800"
-        height="350"
-      />
-      <img
-        class="mobile"
-        src="images/Hero_Mobile.webp"
-        alt="Mobile Image"
-        width="600"
-        height="200"
-      />
+      <picture>
+        <source
+          width="576"
+          height="576"
+          media="(max-width: 575px)"
+          srcset="images/Hero_Mobile.webp"
+        />
+        <source
+          width="960"
+          height="770"
+          media="(min-width: 576px) and (max-width: 960px)"
+          srcset="images/Hero_Tablet.webp"
+        />
+        <img width="1920" height="893" src="images/Hero_Desktop.webp" />
+      </picture>
 
       <div class="hero-content">
         <div class="container">
           <h1>Discover our line of VR Headsets</h1>
           <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+            Sed ut perspiciatis unde omnis iste natus err4or sit voluptatem accusantium doloremque
             laudantium.
           </p>
           <button>View Headsets</button>
@@ -111,7 +109,7 @@
       </div>
     </section>
 
-    <section class="country-bar hidden"></section>
+    <section class="country-bar"></section>
 
     <section class="best-sellers" id="best-sellers-section">
       <h1>Best Sellers</h1>
@@ -120,13 +118,7 @@
         <div class="container">
           <div class="product new">
             <div class="product-picture">
-              <img
-                src="images/vr1.webp"
-                alt="product: Penom Case"
-                loading="lazy"
-                width="70"
-                height="70"
-              />
+              <img src="images/vr1.webp" alt="product: Penom Case" />
             </div>
             <div class="product-info">
               <h5 class="categories">Headsets, Apple</h5>
@@ -140,13 +132,7 @@
 
           <div class="product new">
             <div class="product-picture">
-              <img
-                src="images/vr2.webp"
-                alt="product: Noise Cancelling Headphone"
-                loading="lazy"
-                width="70"
-                height="70"
-              />
+              <img src="images/vr2.webp" alt="product: Noise Cancelling Headphone" />
             </div>
             <div class="product-info">
               <h5 class="categories">Headsets, PS</h5>
@@ -160,13 +146,7 @@
 
           <div class="product">
             <div class="product-picture">
-              <img
-                src="images/vr3.webp"
-                alt="product: Canon Digital SLR EOS Rebel T6"
-                loading="lazy"
-                width="70"
-                height="70"
-              />
+              <img src="images/vr3.webp" alt="product: Canon Digital SLR EOS Rebel T6" />
             </div>
             <div class="product-info">
               <h5 class="categories">Headsets, Oculus</h5>
@@ -244,7 +224,7 @@
 
     <a href="#" id="open_preferences_center">Update cookies preferences</a>
 
-    <script defer src="/js/main.js"></script>
-    <script defer src="/js/products.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="/js/products.js"></script>
   </body>
 </html>
