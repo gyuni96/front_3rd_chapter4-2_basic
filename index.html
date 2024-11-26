@@ -23,8 +23,8 @@
     <!-- End Google Tag Manager -->
 
     <!-- Cookie Consent by FreePrivacyPolicy.com https://www.FreePrivacyPolicy.com -->
-    <script defer type="text/javascript" src="./js/cookie-consent.js"></script>
-    <script defer type="text/javascript" charset="UTF-8">
+    <script type="text/javascript" src="/js/cookie-consent.js" charset="UTF-8" defer></script>
+    <script charset="UTF-8" defer>
       document.addEventListener("DOMContentLoaded", function () {
         cookieconsent.run({
           notice_banner_type: "simple",
@@ -68,7 +68,9 @@
             <li><a href="about.html">About us</a></li>
             <li><a href="index.html#best-sellers-section">Best Sellers</a></li>
             <li><a href="index.html#newsletter-section">Newsletter</a></li>
-            <li class="menu-icon"><img width="30" height="24" src="images/menu_icon.webp" /></li>
+            <li class="menu-icon">
+              <img src="images/menu_icon.webp" width="29" height="20" />
+            </li>
           </ul>
         </nav>
       </div>
@@ -77,24 +79,24 @@
     <section class="hero">
       <img
         class="desktop"
-        width="1025"
-        height="450"
-        alt="Desktop images"
         src="images/Hero_Desktop.webp"
-      />
-      <img
-        class="mobile"
-        width="800"
-        height="350"
-        alt="mobile images"
-        src="images/Hero_Mobile.webp"
+        alt="Desktop Image"
+        width="1020"
+        height="450"
       />
       <img
         class="tablet"
+        src="images/Hero_Tablet.webp"
+        alt="Tablet Image"
+        width="800"
+        height="350"
+      />
+      <img
+        class="mobile"
+        src="images/Hero_Mobile.webp"
+        alt="Mobile Image"
         width="600"
         height="200"
-        alt="tablet images"
-        src="images/Hero_Tablet.webp"
       />
 
       <div class="hero-content">
@@ -242,7 +244,7 @@
 
     <a href="#" id="open_preferences_center">Update cookies preferences</a>
 
-    <script defer type="text/javascript" src="/js/main.js"></script>
-    <script defer type="text/javascript" src="/js/products.js"></script>
+    <script defer src="/js/main.js"></script>
+    <script defer src="/js/products.js"></script>
   </body>
 </html>
